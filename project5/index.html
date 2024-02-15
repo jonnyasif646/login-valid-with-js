@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>Title</title>
+</head>
+<script src="script.js"></script>
+<link rel="stylesheet" href="style.css">
+<style>
+
+body{
+    background-color:lightskyblue;
+}
+
+</style>
+<body>
+<form action="wel.html" onsubmit="return valid()">
+<h1 class="display-1">Login</h1>
+   <table class="table">
+
+<tr>
+    <td>    <input type="text" class="form-control" placeholder="Enter Email" id="email"></td>
+    <td style="visibility: hidden;" id="evalid">Email is not valid ❗❌</td>
+</tr>
+<tr>
+    <td>    <input type="password" class="form-control" placeholder="Enter password" id="pass"></td>
+    <td style="visibility: hidden;" id="pvalid"> password is not valid ❗❌</td>
+</tr>
+<tr>
+    <td>
+        <input type="submit" value="Login" class="btn btn-danger">
+    </td>
+</tr>
+   </table>
+
+</form>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+form{
+
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    margin-left: 300px;
+}
+*{
+    margin: 0;padding: 0;
+}
+td{
+    padding: 30px;
+    border: none;
+}
+table{
+    border: none;
+}
